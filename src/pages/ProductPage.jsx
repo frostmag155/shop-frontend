@@ -1,4 +1,3 @@
-// src/pages/ProductPage.jsx
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -143,7 +142,7 @@ const ProductPage = () => {
       country: selectedCountry
     };
 
-    // Сохраняем в localStorage (временное решение)
+    // Сохраняем в localStorage 
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     const existingIndex = cart.findIndex(item => item.variantId === variantId);
 
