@@ -1,4 +1,3 @@
-// src/utils/helpers.js
 export const normalizeProduct = (product) => ({
   id: product.id,
   name: product.Name || product.name,
