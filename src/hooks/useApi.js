@@ -1,4 +1,3 @@
-// src/hooks/useApi.js
 import { useState, useEffect } from 'react';
 import { SERVER_URL } from '../utils/constants';
 
